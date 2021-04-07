@@ -1,0 +1,140 @@
+@charset "utf-8";
+@media screen and (max-height: 926px) and (orientation: portrait){
+	.body{
+		width: 100vw;
+		height: 100vh;
+	}
+	.menu{
+		display: none;
+	}
+	.background{
+		width: 100vw;
+		height: 100vh;
+		background-image: url("homepage/SVG/PC/D.svg");
+		background-position: center;
+		background-size: cover;
+	}
+	.logo{
+		position: absolute;
+		width: 50vw;
+		height: 28vw;
+		top: 1%;
+		left: 1%;
+		background-image: url("homepage/SVG/Phone/A.svg");
+		background-size: contain;
+		background-repeat: no-repeat;
+		z-index: 3;
+	}
+	.wellcome{
+		display: none;
+	}
+	.door{
+		width: 34vh;
+		height: 50vh;
+		top: calc(100% - 50vh);
+		background-size: contain;
+	}
+	#door1{
+		display: none;
+	}
+	#door2{
+		left: calc(50% - 17vh - 200vw);
+	}
+	#door3{
+		left: calc(50% - 17vh - 100vw);
+	}
+	#door4{
+		left: calc(50% - 17vh);
+	}
+	#door5{
+		left: calc(50% - 17vh + 100vw);
+	}
+	#door6{
+		left: calc(50% - 17vh + 200vw);
+	}
+	#door7{
+		display: none;
+	}
+	.button{
+		width: 20vw;
+		height: 20vw;
+		top: calc(50% - 25vh);
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+	#previous{
+		left: 1vw;
+		background-image: url("homepage/SVG/PC/B1_1.svg");
+	}
+	#next{
+		left: 79vw;
+		background-image: url("homepage/SVG/PC/B2_1.svg");
+	}
+	
+	.menu_button{
+		display: block;
+		width: 20vw;
+		height: 10vh;
+		top: 1%;
+		right: 1%;
+		background-size: 100%;
+	}
+	#menu{
+		position: fixed;
+		width: 80vw;
+		height: 151vw;
+		bottom: 0px;
+		right: 0vw;
+		background-size: 100%;
+	}
+	#menu li{
+		width: 50vw;
+		height: 16vw;
+		left: calc(50% - 25vw);
+		background-size: contain;
+		background-position: center;
+	}
+	.monster_ul{
+		width: 50vw;
+		height: 72vw;
+		top: 15vw;
+		left: 0%;
+		background-size: contain;
+	}
+	.monster_ul li{
+		width: 30vw;
+		height: 7vw;
+		left: calc(50% - 15vw);
+		background-size: contain;
+	}
+	#menu_waste{
+		top: 11vw;
+	}
+	#menu_hoarding{
+		top: 22vw;
+	}
+	#menu_exaggeration{
+		top: 33vw;
+	}
+	#menu_pretend{
+		top: 44vw;
+	}
+	#menu_rumors{
+		top: 55vw;
+	}
+	#menu_aboutus{
+		top: 32vw;
+	}
+	#menu_monster{
+		top: 54vw;
+	}
+	#menu_knowledge{
+		top: 76vw;
+	}
+	#menu_merchandise{
+		top: 98vw;
+	}
+	#menu_video{
+		top: 120vw;
+	}
+}

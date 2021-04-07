@@ -1,0 +1,386 @@
+@charset "utf-8";
+body{
+	background-color: #5C7894;
+	margin: 0;
+	padding: 0;
+}
+.body{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	width: 100%;
+	height: calc(100vw / 16 * 9);
+}
+.menu{
+    position: absolute;
+	margin: 0;
+	padding: 0;
+	width: 90%;
+    min-width: 1272px;
+	height: calc(90vw / 1272 * 140);
+    min-height: 140px;
+	top: 3%;
+	left: 5%;
+    z-index: 2;
+    background-image: url("homepage/SVG/PC/A.svg");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.backgroundpack{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	min-width: 1366px;
+	height: calc(100vw / 16 * 9);
+	min-height: 768px;
+	overflow: hidden;
+}
+.background{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	width: calc(100% / 768 * 3187);
+	min-width: 3187px;
+	height: 100%;
+	min-height: 768px;
+	left: -67.5%;
+	background-image: url("homepage/SVG/PC/D.svg");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.wellcome{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	min-width: 1366px;
+	height: calc(100vw / 16 * 9);
+	min-height: calc(1366px / 16 * 9);
+	z-index: 20;
+}
+.door{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	width: calc(50% / 382 * 259);
+	min-width: 259px;
+	height: 50%;
+	min-height: 382px;
+	bottom: 0px;
+	z-index: 10;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#door1{
+	background-image: url("homepage/SVG/PC/D1.svg");
+	left: -60.5%;
+}
+#door2{
+	background-image: url("homepage/SVG/PC/D2_1.svg");
+	left: -27%;
+}
+#door2:hover{
+	background-image: url("homepage/SVG/PC/D2_2.svg");
+}
+#door3{
+	background-image: url("homepage/SVG/PC/D3_1.svg");
+	left: 6.5%;
+}
+#door3:hover{
+	background-image: url("homepage/SVG/PC/D3_2.svg");
+}
+#door4{
+	background-image: url("homepage/SVG/PC/D4_1.svg");
+	left: 40%;
+}
+#door4:hover{
+	background-image: url("homepage/SVG/PC/D4_2.svg");
+}
+#door5{
+	background-image: url("homepage/SVG/PC/D5_1.svg");
+	left: 73.5%;
+}
+#door5:hover{
+	background-image: url("homepage/SVG/PC/D5_2.svg");
+}
+#door6{
+	background-image: url("homepage/SVG/PC/D6_1.svg");
+	left: 107%;
+}
+#door6:hover{
+	background-image: url("homepage/SVG/PC/D6_2.svg");
+}
+#door7{
+	background-image: url("homepage/SVG/PC/D7_1.svg");
+	left: 140.5%;
+}
+.menubutton{
+	position: absolute;
+	width: 14%;
+	min-width: 203px;
+	height: calc(14vw / 203 * 56);
+	min-height: 56px;
+	top: calc(7% / 203 * 56);
+	background-repeat: no-repeat;
+	background-size: contain;
+	z-index: 3;
+	overflow: hidden;
+}
+#about{
+    left: 20%;
+    background-image: url("homepage/SVG/PC/A1_1.svg");
+}
+#about:hover{
+	background-image: url("homepage/SVG/PC/A1_2.svg");
+}
+#monster{
+	left: 36.25%;
+    background-image: url("homepage/SVG/PC/A2_1.svg");
+    overflow: visible;
+}
+#monster:hover{
+	background-image: url("homepage/SVG/PC/A2_2.svg");
+}
+#knowledge{
+	left: 52.5%;
+    background-image: url("homepage/SVG/PC/A3_1.svg");
+}
+#knowledge:hover{
+	background-image: url("homepage/SVG/PC/A3_2.svg");
+}
+#merchandise{
+	left: 68.75%;
+    background-image: url("homepage/SVG/PC/A4_1.svg");
+}
+#merchandise:hover{
+	background-image: url("homepage/SVG/PC/A4_2.svg");
+}
+#finalvideo{
+	left: 85%;
+    background-image: url("homepage/SVG/PC/A5_1.svg");
+}
+#finalvideo:hover{
+	background-image: url("homepage/SVG/PC/A5_2.svg");
+}
+.button{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	width: 5%;
+	min-width: 68px;
+	height: 5%;
+	min-height: 68px;
+	top: 200px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	z-index: 3;
+}
+#previous{
+	left: 68px;
+	background-image: url("homepage/SVG/PC/B1_1.svg");
+}
+#previous:hover{
+	background-image: url("homepage/SVG/PC/B1_2.svg");
+}
+#next{
+	right: 68px;
+	background-image: url("homepage/SVG/PC/B2_1.svg");
+}
+#next:hover{
+	background-image: url("homepage/SVG/PC/B2_2.svg");
+}
+.list{
+	display: none;
+	position: absolute;
+	margin: 0;
+	padding: 0px;
+	width: 357px;
+	height: 189px;
+	top: calc(50% + 28px);
+	background-image: url("homepage/SVG/PC/C.svg");
+	background-position: center;
+	background-repeat: no-repeat;
+	z-index: 5;
+}
+li{
+	position: absolute;
+	width: 101px;
+	height: 21px;
+	z-index: 6;
+	background-position: center;
+	background-repeat: no-repeat;
+	list-style: none;
+}
+#list1{
+	top: calc(50% - 42px);
+	left: calc(50% - 130px);
+	background-image: url("homepage/SVG/PC/C5_1.svg");
+}
+#list1:hover{
+	background-image: url("homepage/SVG/PC/C5_2.svg");
+}
+#list2{
+	top: calc(50%);
+	left: calc(50% - 130px);
+	background-image: url("homepage/SVG/PC/C4_1.svg");
+}
+#list2:hover{
+	background-image: url("homepage/SVG/PC/C4_2.svg");
+}
+#list3{
+	top: calc(50% - 42px);
+	left: calc(50%);
+	background-image: url("homepage/SVG/PC/C3_1.svg");
+}
+#list3:hover{
+	background-image: url("homepage/SVG/PC/C3_2.svg");
+}
+#list4{
+	top: calc(50%);
+	left: calc(50%);
+	background-image: url("homepage/SVG/PC/C2_1.svg");
+}
+#list4:hover{
+	background-image: url("homepage/SVG/PC/C2_2.svg");
+}
+#list5{
+	top: calc(50% + 42px);
+	left: calc(50%);
+	background-image: url("homepage/SVG/PC/C1_1.svg");
+}
+#list5:hover{
+	background-image: url("homepage/SVG/PC/C1_2.svg");
+}
+
+.menu_button{
+	display: none;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	width: 147px;
+	height: 126px;
+	top: 0px;
+	right: 0px;
+	background-image: url("share/SVG/B1_1.svg");
+	z-index: 100;
+}
+.menu_button:hover{
+	background-image: url("share/SVG/B1_2.svg");
+}
+#menu{
+	position: absolute;
+	margin: 0px;
+	padding: 0px;
+	width: 336px;
+	height: 634px;
+	bottom: 0px;
+	right: 0px;
+	background-image: url("share/SVG/A.svg");
+	z-index: 100;
+	display: none;
+}
+#menu li{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	width: 229px;
+	height: 75px;
+	left: 53.5px;
+	list-style: none;
+	background-repeat: no-repeat;
+}
+#menu_aboutus{
+	top: 143px;
+	background-image: url("share/SVG/A1_1.svg");
+}
+#menu_aboutus:hover{
+	background-image: url("share/SVG/A1_2.svg");
+}
+#menu_monster{
+	top: 230px;
+	background-image: url("share/SVG/A2_1.svg");
+	z-index: 2;
+}
+#menu_monster:hover{
+	background-image: url("share/SVG/A2_2.svg");
+}
+.monster_ul{
+	position: absolute;
+	margin: 0px;
+	padding: 0px;
+	width: 203px;
+	height: 291px;
+	top: 70px;
+	left: 13px;
+	background-repeat: no-repeat;
+	background-image: url("share/SVG/C.svg");
+	display: none;
+}
+.monster_ul li{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	width: 129px;
+	height: 29px;
+	left: 37px;
+	list-style: none;
+	background-repeat: no-repeat;
+}
+#menu_waste{
+	top: 40px;
+	background-image: url("share/SVG/C1_1.svg");
+}
+#menu_waste:hover{
+	background-image: url("share/SVG/C1_2.svg");
+}
+#menu_hoarding{
+	top: 90px;
+	background-image: url("share/SVG/C2_1.svg");
+}
+#menu_hoarding:hover{
+	background-image: url("share/SVG/C2_2.svg");
+}
+#menu_exaggeration{
+	top: 140px;
+	background-image: url("share/SVG/C3_1.svg");
+}
+#menu_exaggeration:hover{
+	background-image: url("share/SVG/C3_2.svg");
+}
+#menu_pretend{
+	top: 190px;
+	background-image: url("share/SVG/C4_1.svg");
+}
+#menu_pretend:hover{
+	background-image: url("share/SVG/C4_2.svg");
+}
+#menu_rumors{
+	top: 240px;
+	background-image: url("share/SVG/C5_1.svg");
+}
+#menu_rumors:hover{
+	background-image: url("share/SVG/C5_2.svg");
+}
+#menu_knowledge{
+	top: 320px;
+	background-image: url("share/SVG/A3_1.svg");
+}
+#menu_knowledge:hover{
+	background-image: url("share/SVG/A3_2.svg");
+}
+#menu_merchandise{
+	top: 410px;
+	background-image: url("share/SVG/A4_1.svg");
+}
+#menu_merchandise:hover{
+	background-image: url("share/SVG/A4_2.svg");
+}
+#menu_video{
+	top: 500px;
+	background-image: url("share/SVG/A5_1.svg");
+}
+#menu_video:hover{
+	background-image: url("share/SVG/A5_2.svg");
+}

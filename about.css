@@ -1,0 +1,155 @@
+@charset "utf-8";
+body{
+	background-color: #5C7894;
+	margin: 0;
+	padding: 0;
+}
+.body{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	width: 100%;
+	height: calc(100vw / 16 * 9);
+}
+.about{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	min-width: 1366px;
+	height: calc(100vw / 16 * 9);
+	min-height: calc(1366px / 16 * 9);
+	background-image: url("about/A.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.button{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	width: 147px;
+	height: 126px;
+	top: 0px;
+	right: 0px;
+	background-image: url("share/SVG/B1_1.svg");
+	z-index: 100;
+}
+.button:hover{
+	background-image: url("share/SVG/B1_2.svg");
+}
+.menu{
+	position: absolute;
+	margin: 0px;
+	padding: 0px;
+	width: 336px;
+	height: 634px;
+	bottom: 0px;
+	right: 0px;
+	background-image: url("share/SVG/A.svg");
+	z-index: 100;
+	display: none;
+}
+.menu li{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	width: 229px;
+	height: 75px;
+	left: 53.5px;
+	list-style: none;
+	background-repeat: no-repeat;
+}
+#aboutus{
+	top: 143px;
+	background-image: url("share/SVG/A1_1.svg");
+}
+#aboutus:hover{
+	background-image: url("share/SVG/A1_2.svg");
+}
+#monster{
+	top: 230px;
+	background-image: url("share/SVG/A2_1.svg");
+	z-index: 2;
+}
+#monster:hover{
+	background-image: url("share/SVG/A2_2.svg");
+}
+.monster_ul{
+	position: absolute;
+	margin: 0px;
+	padding: 0px;
+	width: 203px;
+	height: 291px;
+	top: 70px;
+	left: 13px;
+	background-repeat: no-repeat;
+	background-image: url("share/SVG/C.svg");
+	display: none;
+}
+.monster_ul li{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	width: 129px;
+	height: 29px;
+	left: 37px;
+	list-style: none;
+	background-repeat: no-repeat;
+}
+#menu_waste{
+	top: 40px;
+	background-image: url("share/SVG/C1_1.svg");
+}
+#menu_waste:hover{
+	background-image: url("share/SVG/C1_2.svg");
+}
+#menu_hoarding{
+	top: 90px;
+	background-image: url("share/SVG/C2_1.svg");
+}
+#menu_hoarding:hover{
+	background-image: url("share/SVG/C2_2.svg");
+}
+#menu_exaggeration{
+	top: 140px;
+	background-image: url("share/SVG/C3_1.svg");
+}
+#menu_exaggeration:hover{
+	background-image: url("share/SVG/C3_2.svg");
+}
+#menu_pretend{
+	top: 190px;
+	background-image: url("share/SVG/C4_1.svg");
+}
+#menu_pretend:hover{
+	background-image: url("share/SVG/C4_2.svg");
+}
+#menu_rumors{
+	top: 240px;
+	background-image: url("share/SVG/C5_1.svg");
+}
+#menu_rumors:hover{
+	background-image: url("share/SVG/C5_2.svg");
+}
+#knowledge{
+	top: 320px;
+	background-image: url("share/SVG/A3_1.svg");
+}
+#knowledge:hover{
+	background-image: url("share/SVG/A3_2.svg");
+}
+#merchandise{
+	top: 410px;
+	background-image: url("share/SVG/A4_1.svg");
+}
+#merchandise:hover{
+	background-image: url("share/SVG/A4_2.svg");
+}
+#video{
+	top: 500px;
+	background-image: url("share/SVG/A5_1.svg");
+}
+#video:hover{
+	background-image: url("share/SVG/A5_2.svg");
+}
